@@ -13,7 +13,9 @@ Goal
 * use in parrallel with custom javascript objects and abstractions can leverage really efficient Dimmer patching + Cusom GUI and Interactivity
 
 
-
+Requirements
+=====
+OSX , ftdxx installed in usr local
 
 
 
