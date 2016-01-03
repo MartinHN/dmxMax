@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F79E6B71B10ED76005B8BCB /* pro_driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F79E6B51B10ED76005B8BCB /* pro_driver.cpp */; };
+		3FFFD8DB1C38A87400A99A24 /* maxmspsdk.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3FFFD8DA1C38A87400A99A24 /* maxmspsdk.xcconfig */; };
+		3FFFD8DE1C38AB5F00A99A24 /* dmxMax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FFFD8DC1C38AB5F00A99A24 /* dmxMax.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F79E68C1B10EADF005B8BCB /* dmxMax.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dmxMax.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F79E6B21B10ED76005B8BCB /* ms_stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ms_stdint.h; path = src/ms_stdint.h; sourceTree = "<group>"; };
+		3F79E6B31B10ED76005B8BCB /* pro_driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pro_driver.h; path = src/pro_driver.h; sourceTree = "<group>"; };
+		3F79E6B51B10ED76005B8BCB /* pro_driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pro_driver.cpp; path = src/pro_driver.cpp; sourceTree = "<group>"; };
+		3F79E6B81B10EE5D005B8BCB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dmx.xcodeproj/../Info.plist; sourceTree = "<group>"; };
+		3FFFD8DA1C38A87400A99A24 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = ../../maxmspsdk.xcconfig; sourceTree = "<group>"; };
+		3FFFD8DC1C38AB5F00A99A24 /* dmxMax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dmxMax.cpp; path = src/dmxMax.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F79E6891B10EADF005B8BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F79E67B1B10EA80005B8BCB = {
+			isa = PBXGroup;
+			children = (
+				3F79E6B81B10EE5D005B8BCB /* Info.plist */,
+				3F79E68E1B10EADF005B8BCB /* usbpro */,
+				3F79E68D1B10EADF005B8BCB /* Products */,
+				3F79E6B21B10ED76005B8BCB /* ms_stdint.h */,
+				3F79E6B31B10ED76005B8BCB /* pro_driver.h */,
+				3F79E6B51B10ED76005B8BCB /* pro_driver.cpp */,
+				3FFFD8DC1C38AB5F00A99A24 /* dmxMax.cpp */,
+				3FFFD8DA1C38A87400A99A24 /* maxmspsdk.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		3F79E68D1B10EADF005B8BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F79E68C1B10EADF005B8BCB /* dmxMax.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F79E68E1B10EADF005B8BCB /* usbpro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = usbpro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F79E68B1B10EADF005B8BCB /* dmxMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F79E6AA1B10EADF005B8BCB /* Build configuration list for PBXNativeTarget "dmxMax" */;
+			buildPhases = (
+				3F79E6881B10EADF005B8BCB /* Sources */,
+				3F79E6891B10EADF005B8BCB /* Frameworks */,
+				3F79E68A1B10EADF005B8BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dmxMax;
+			productName = usbpro;
+			productReference = 3F79E68C1B10EADF005B8BCB /* dmxMax.mxo */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F79E67C1B10EA80005B8BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					3F79E68B1B10EADF005B8BCB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F79E67F1B10EA80005B8BCB /* Build configuration list for PBXProject "dmxMax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F79E67B1B10EA80005B8BCB;
+			productRefGroup = 3F79E68D1B10EADF005B8BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F79E68B1B10EADF005B8BCB /* dmxMax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F79E68A1B10EADF005B8BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFFD8DB1C38A87400A99A24 /* maxmspsdk.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F79E6881B10EADF005B8BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFFD8DE1C38AB5F00A99A24 /* dmxMax.cpp in Sources */,
+				3F79E6B71B10ED76005B8BCB /* pro_driver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F79E6801B10EA80005B8BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFFD8DA1C38A87400A99A24 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		3F79E6811B10EA80005B8BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFFD8DA1C38A87400A99A24 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		3F79E6AB1B10EADF005B8BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lftd2xx",
+					"-lcurses",
+					"$(C74_SYM_LINKER_FLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F79E6AC1B10EADF005B8BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-lftd2xx",
+					"-lcurses",
+					"$(C74_SYM_LINKER_FLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F79E67F1B10EA80005B8BCB /* Build configuration list for PBXProject "dmxMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F79E6801B10EA80005B8BCB /* Debug */,
+				3F79E6811B10EA80005B8BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F79E6AA1B10EADF005B8BCB /* Build configuration list for PBXNativeTarget "dmxMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F79E6AB1B10EADF005B8BCB /* Debug */,
+				3F79E6AC1B10EADF005B8BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F79E67C1B10EA80005B8BCB /* Project object */;
+}
